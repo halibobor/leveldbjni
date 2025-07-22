@@ -41,7 +41,7 @@
 
   <groupId>org.fusesource.leveldbjni</groupId>
   <artifactId>leveldbjni</artifactId>
-  <version>99-master-SNAPSHOT</version>
+  <version>1.8</version>
   <packaging>jar</packaging>
   
   <name>${project.artifactId}</name>
@@ -90,7 +90,7 @@
 
       <plugin>
         <groupId>org.fusesource.hawtjni</groupId>
-        <artifactId>maven-hawtjni-plugin</artifactId>
+        <artifactId>hawtjni-maven-plugin</artifactId>
         <version>${hawtjni-version}</version>
         <executions>
           <execution>
@@ -201,7 +201,7 @@
                 <pluginExecution>
                   <pluginExecutionFilter>
                     <groupId>org.fusesource.hawtjni</groupId>
-                    <artifactId>maven-hawtjni-plugin</artifactId>
+                    <artifactId>hawtjni-maven-plugin</artifactId>
                     <versionRange>[1.11,)</versionRange>
                     <goals>
                       <goal>generate</goal>

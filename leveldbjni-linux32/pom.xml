@@ -50,7 +50,7 @@
     <dependency>
       <groupId>org.fusesource.leveldbjni</groupId>
       <artifactId>leveldbjni</artifactId>
-      <version>99-master-SNAPSHOT</version>
+      <version>1.8</version>
     </dependency>
   </dependencies>
 
@@ -68,7 +68,7 @@
       </plugin>
       <plugin>
         <groupId>org.fusesource.hawtjni</groupId>
-        <artifactId>maven-hawtjni-plugin</artifactId>
+        <artifactId>hawtjni-maven-plugin</artifactId>
         <version>${hawtjni-version}</version>
         <executions>
           <execution>
@@ -84,7 +84,7 @@
           <nativeSrcDependency>
             <groupId>org.fusesource.leveldbjni</groupId>
             <artifactId>leveldbjni</artifactId>
-            <version>${project.version}</version>
+            <version>1.8</version>
             <classifier>native-src</classifier>
             <type>zip</type>
           </nativeSrcDependency>
